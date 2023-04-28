@@ -26,7 +26,7 @@ const displayPhones = (phones, dataLimit) =>{
             <div class="card-body">
                 <h5 class="card-title">${phone.phone_name +" fuck"}</h5>
                 <p>Buy Me</p>       
-                <button onclick="loadPhoneDetails('${phone.slug}')" href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#phoneDetailModal">inside information</button>                
+                <button onclick="loadPhoneDetails('${phone.slug}')" href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#phoneDetailModal">insides information</button>                
             </div>
         </div>
         `;
